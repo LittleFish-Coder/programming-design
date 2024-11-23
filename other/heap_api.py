@@ -14,3 +14,10 @@ print(heapq.heappop(data))  # 7
 print(heapq.heappop(data))  # 12
 
 print(data)  # [20, 34, 39, 76, 63, 51, 96, 84]
+
+
+# get the smallest n elements
+print(heapq.nsmallest(3, data))  # [20, 34, 39]
+
+# get the largest n elements
+print(heapq.nlargest(3, data))  # [96, 84, 76]
